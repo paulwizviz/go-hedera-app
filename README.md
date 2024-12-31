@@ -1,4 +1,4 @@
-# Building Applications with Go and Ethereum
+# Building Applications with Go and Hedera
 
 This project provides a practical guide for developers to explore the Hedera ecosystem using the Go programming language.
 
