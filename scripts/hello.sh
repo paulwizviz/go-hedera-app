@@ -5,11 +5,14 @@ if [ "$(basename $(realpath .))" != "go-hedera-app" ]; then
     exit 0
 fi
 
+export SOLC_TOOL="ethereum/solc:0.8.28"
+export DOCKER_DEFAULT_PLATFORM=linux/amd64
+
 function compile_sol(){
     local sol="Hello.sol" # Change this to meet your script
     docker run -v $(PWD)/solidity/hello/$sol:/opt/solidity/$sol \
             -v $(PWD)/solidity/bin/hello/:/opt/bin \
-            ${SOLC_TOOL} --abi --bin /opt/solidity/$sol -o /opt/bin
+            ${SOLC_TOOL} --bin /opt/solidity/$sol -o /opt/bin
 }
 
 COMMAND=$1
