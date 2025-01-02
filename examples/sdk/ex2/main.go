@@ -16,6 +16,8 @@
 // For a list of contributors, refer to the CONTRIBUTORS file or the
 // repository's commit history.
 
+// This example demonstrate opeartion to create HTS Token
+
 package main
 
 import (
