@@ -13,7 +13,9 @@ A series of code snippets demonstrating operations to interact with Hedera nodes
 * REST API
     * [Example 1 - Getting a list of accounts](./examples/rest/ex1/main.go)
 * SDK
-    * [Example 2 - Get information about a specific account](./examples/sdk/ex1/main.go)
+    * [Example 1 - Get information about a specific account](./examples/sdk/ex1/main.go)
+    * [Example 2 - Operation to create HTS Token](./examples/sdk/ex2/main.go)
+    * [Example 3 - Operation to burn token](./examples/sdk/ex3/main.go)
 
 ## Disclaimer
 
